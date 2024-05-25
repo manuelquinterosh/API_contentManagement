@@ -18,7 +18,7 @@ This is the Entity-Relationship Diagram (ERD) of our content management system.
 ### Prerequisites
 - Node.js
 - Express.js
-- Mysql
+- MySQL Workbench
 - JWT (JSON Web Tokens)
 - bcrypt
 
