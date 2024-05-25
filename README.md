@@ -1,6 +1,26 @@
-# My Node Project
+# Content Management API
 
-This project is a content management system built with Node.js and Express.
+Welcome to the Content Management API project! This API allows users to manage various types of content, such as games, videos, artwork, and music. Users can also rate the content from 1 to 5 stars.
+
+## Features
+- CRUD operations for content management.
+- User authentication and management.
+- Content rating system.
+
+## Database Diagram
+
+![Database Diagram](EER_Diagram.png)
+
+This is the Entity-Relationship Diagram (ERD) of our content management system.
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- Express.js
+- Mysql
+- JWT (JSON Web Tokens)
+- bcrypt
 
 ## Installation
 
