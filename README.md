@@ -27,7 +27,7 @@ This project is a content management system built with Node.js and Express.
 
 4. Run the server:
     ```bash
-    npm start
+    node src/index.js
     ```
 
 ## Usage
@@ -36,11 +36,11 @@ Use Postman or any API testing tool to test the endpoints.
 
 ## Endpoints
 
-- `POST /content` - Create a new content item
-- `GET /content` - Get all content items
-- `GET /content/:id` - Get a content item by ID
-- `PUT /content/:id` - Update a content item
-- `DELETE /content/:id` - Delete a content item
+- `POST /content-items` - Create a new content item
+- `GET /content-items` - Get all content items
+- `GET /content-items/:id` - Get a content item by ID
+- `PUT /content-items/:id` - Update a content item
+- `DELETE /content-items/:id` - Delete a content item
 
 - `POST /users/register` - Register a new user
 - `POST /users/login` - Login a user
