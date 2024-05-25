@@ -44,8 +44,13 @@ This is the Entity-Relationship Diagram (ERD) of our content management system.
     DB_PORT=3306
     JWT_SECRET=ebc044ed4c11794498a82772c978111a1b0d57be8acbda2cea48c526312ae76d006d266b1af94808c1ba3d3c954225337371bff41ff5a3dec5e41051a7061ba8
     ```
+4. Create Database:
+   ```bash
+    - Open MySQL Workbench
+    - Find the SQL file within the project and use it as a basis to create the tables
+    ```
 
-4. Run the server:
+5. Run the server:
     ```bash
     node src/index.js
     ```
